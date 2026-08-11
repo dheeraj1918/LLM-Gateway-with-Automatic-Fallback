@@ -6,7 +6,7 @@
         },
         {
             "provider": "huggingface",
-            "model": "Qwen/Qwen3-4B-Instruct-2507"
+            "model": "Qwen/Qwen2.5-1.5B-Instruct"
         },
         {
             "provider": "groq",
@@ -21,7 +21,7 @@
         },
         {
             "provider": "huggingface",
-            "model": "openai/gpt-oss-20b"
+            "model": "meta-llama/Llama-3.1-8B-Instruct"
         },
         {
             "provider": "groq",
@@ -32,11 +32,11 @@
     "high": [
         {
             "provider": "gemini",
-            "model": "gemini-3.1-pro-preview"
+            "model": "gemini-3.1-flash"
         },
         {
             "provider": "huggingface",
-            "model": "openai/gpt-oss-120b"
+            "model": "google/gemma-4-26B-A4B-it"
         },
         {
             "provider": "groq",
