@@ -1,9 +1,9 @@
-from .gemini import generate
-from .huggingface import generate
-from .groq import generate
+from .gemini import generate as  gemini_generate
+from .huggingface  import generate as huggingface_generate
+from .groq import generate as groq_generate
 
 PROVIDERS = {
-    "gemini": generate,
-    "huggingface":generate,
-    "groq":generate
+    "gemini": gemini_generate,
+    "huggingface": huggingface_generate,
+    "groq": groq_generate,
 }

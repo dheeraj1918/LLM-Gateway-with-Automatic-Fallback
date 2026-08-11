@@ -18,4 +18,4 @@ def generate(prompt, model_name):
     )
     message=[("human",prompt)]
     response=model.invoke(message)
-    return response.text
+    return response.content

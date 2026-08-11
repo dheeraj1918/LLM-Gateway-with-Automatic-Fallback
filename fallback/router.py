@@ -17,7 +17,11 @@ def generate(priority,prompt):
                 "response": response
             }
         except Exception as e:
-            print(f"Error {e}")
+            print(
+                f"[FAILED] Provider={provider} | "
+                f"Model={model_name} | "
+                f"Error={type(e).__name__}: {e}"
+            )
             continue
     return {
         "success": False,

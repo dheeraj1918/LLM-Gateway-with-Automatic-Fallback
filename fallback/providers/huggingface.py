@@ -1,9 +1,8 @@
 from huggingface_hub import InferenceClient
 from config.config import HUGGINGFACE_KEYS
-import os
 
 
-HF_TOKEN =HUGGINGFACE_KEYS[0]
+HF_TOKEN = HUGGINGFACE_KEYS[0]
 
 
 def generate(prompt, model_name):
