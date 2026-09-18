@@ -1,0 +1,13 @@
+[project]
+name = "llm-gateway"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.3",
+    "flask-cors>=6.0.5",
+    "litellm>=1.101.0",
+    "pymongo>=4.18.1",
+    "python-dotenv>=1.2.3",
+]
